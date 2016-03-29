@@ -26,8 +26,8 @@ HubTaxi: Server Side
 ===
 ### Reference :
 - Manager:
-  - Source code: `https://github.com/madman/HubTaxi-Client/manager`
-  - Demo: `http://103.232.121.63/taxi/webapp/manager/#/main` - User: `admin` | Password: `admin`
+  - Source code: `https://github.com/madmanteam/HubTaxi/tree/master/HubTaxi-Client/manager`
+  - Demo: `http://103.232.121.63/taxi/manager/#/main` - User: `admin` | Password: `admin`
   - Some screenshot:
   Login:
   ![login](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/login.png)
@@ -39,30 +39,30 @@ HubTaxi: Server Side
   ![setting](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/setting.png)
 
 - Driver: 
-  - Source code: `https://github.com/madman/HubTaxi-Client/tree/master/driver`
-  - Demo: `http://103.232.121.63/taxi/webapp/driver/#/` user/pass: 30h-9999/123123
+  - Source code: `https://github.com/madmanteam/HubTaxi/tree/master/HubTaxi-Client/driver`
+  - Demo: `http://103.232.121.63/taxi/driver/#/` user/pass: 30h-9999/123123
   - Screenshot:
 
-  ![driver1](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/driver1.png)
-  ![driverLoad](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/driverLoad.png)
+  ![driver1](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/driver1.png)
+  ![driverLoad](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/driverLoad.png)
   
   ===
   
-  ![driverLogin](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/driverLogin.png)
-  ![history](https://github.com/madman/HubTaxi-Server/blob/master/screenshot/histories.png)
+  ![driverLogin](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/driverLogin.png)
+  ![history](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/histories.png)
   
 - Client: 
-  - Source code: `https://github.com/vsoft-lab/HubTaxi-Client/tree/master/client`
-  - Demo: `http://103.232.121.63/taxi/webapp/client/#/home`
+  - Source code: `https://github.com/madmanteam/HubTaxi/tree/master/HubTaxi-Client/client`
+  - Demo: `http://103.232.121.63/taxi/client/#/home`
   - Screenshot:
 
-  ![client1](https://github.com/vsoft-lab/HubTaxi-Server/blob/master/screenshot/client1.png)
-  ![client2](https://github.com/vsoft-lab/HubTaxi-Server/blob/master/screenshot/showTaxi.png)
+  ![client1](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/client1.png)
+  ![client2](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/showTaxi.png)
   
   ===
   
-  ![client3](https://github.com/vsoft-lab/HubTaxi-Server/blob/master/screenshot/client3.png)
-  ![clientLogin](https://github.com/vsoft-lab/HubTaxi-Server/blob/master/screenshot/clientLogin.png)
+  ![client3](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/client3.png)
+  ![clientLogin](https://github.com/madmanteam/HubTaxi/blob/master/HubTaxi-Server/screenshot/clientLogin.png)
 
 
-Contact me at tungnguyen@vsoft.vn || Skype: tungtouch
+Contact me at madman.hust@gmail.com

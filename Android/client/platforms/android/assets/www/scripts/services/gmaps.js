@@ -53,29 +53,25 @@ angular.module('itaxiApp')
                 },
 
                 init: function () {
-
-                    gMaps.map = L.map('map').setView([21.029771, 105.801811], 15);
+                    gMaps.map = L.map('map').setView([21.029771, 105.801811], 17);
                     L.tileLayer('http://{s}.tiles.mapbox.com/v4/thinhnvv.cieef6v3v025rs9lx3852m36x/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidGhpbmhudnYiLCJhIjoiZjQzYWM1ZDQ4YjNkNjc5YzQwZjA5OWIwNTNhZDNhODMifQ.53wH0q9UO48XrvK_TUESmg',
-                        { maxZoom: 18  }).addTo(gMaps.map);
-                    /*L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                     {    maxZoom: 18  }).addTo(gMaps.map);*/
+                     { maxZoom: 18  }).addTo(gMaps.map);
 
-//                    L.tileLayer('http://{s}.tiles.mapbox.com/v3/taipham.i6k2o57c/{z}/{x}/{y}.png',
-//                        { maxZoom: 18  }).addTo(gMaps.map); // Link maps layer
-
-                    gMaps.placeService = new google.maps.places.AutocompleteService();
+                    //gMaps.placeService = new google.maps.places.AutocompleteService();
 
 
                     /*gMaps.startPointMarker = L.marker().addTo(gMaps.map);
-                     gMaps.endPointMarker = L.marker().addTo(gMaps.map);*/
-
+                     //gMaps.endPointMarker = L.marker().addTo(gMaps.map);*/
+                    gMaps.startPointMarker = L.marker();
+                    gMaps.endPointMarker = L.marker();
                     var me = this;
 
                     /*alert('Begin Get Current Position');*/
-                    navigator.geolocation.getCurrentPosition(me.getPositionSuccess, me.getPositionError, {
+                    navigator.geolocation.getCurrentPosition(me.getPositionSuccess, me.getPositionError);
+                    /*{
                         enableHighAccuracy: true,
                         maximumAge: 5000
-                    });
+                    });*/
                 },
 
                 iniSearchPoint: function () {
@@ -224,11 +220,9 @@ angular.module('itaxiApp')
                 },
                 setLat: function (position) {
                     this.lat = position.coords.latitude;
-                    console.log("lat = "+this.lat)
                 },
                 setLng: function (position) {
                     this.lng = position.coords.longitude;
-                    console.log("lng = "+this.lng)
                 },
 
                 getPositionError: function (error) {

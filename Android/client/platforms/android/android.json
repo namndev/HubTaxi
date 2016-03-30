@@ -55,10 +55,6 @@
                         {
                             "xml": "<feature name=\"Capture\"><param name=\"android-package\" value=\"org.apache.cordova.mediacapture.Capture\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -106,14 +102,6 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.RECORD_VIDEO\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
                             "count": 1
                         }
                     ]
@@ -169,9 +157,6 @@
             "PACKAGE_NAME": "com.madman.client"
         },
         "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.madman.client"
-        },
-        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.madman.client"
         }
     },
@@ -565,18 +550,6 @@
             "clobbers": [
                 "navigator.device.capture"
             ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
-            "id": "cordova-plugin-geolocation.geolocation",
-            "clobbers": [
-                "navigator.geolocation"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
-            "id": "cordova-plugin-geolocation.PositionError",
-            "runs": true
         }
     ],
     "plugin_metadata": {
@@ -592,7 +565,6 @@
         "cordova-plugin-network-information": "1.2.0",
         "cordova-plugin-globalization": "1.0.3",
         "cordova-plugin-file-transfer": "1.5.0",
-        "cordova-plugin-media-capture": "1.2.0",
-        "cordova-plugin-geolocation": "2.1.0"
+        "cordova-plugin-media-capture": "1.2.0"
     }
 }

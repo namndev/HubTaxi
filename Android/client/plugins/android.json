@@ -45,9 +45,6 @@
         },
         "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.madman.client"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.madman.client"
         }
     },
     "dependent_plugins": {}

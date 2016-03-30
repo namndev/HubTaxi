@@ -1,0 +1,76 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./offline.min.js"
+      },
+      {
+        "type": "style",
+        "src": "./themes/offline-language-{{ options.language }}.css",
+        "if": "!options.indicator"
+      },
+      {
+        "type": "style",
+        "src": "./themes/offline-language-{{ options.language }}-indicator.css",
+        "if": "options.indicator"
+      },
+      {
+        "type": "style",
+        "src": "./themes/offline-theme-{{ options.theme }}.css",
+        "if": "!options.indicator"
+      },
+      {
+        "type": "style",
+        "src": "./themes/offline-theme-{{ options.theme }}-indicator.css",
+        "if": "options.indicator"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "language": {
+        "title": "Language",
+        "description": "The language of the message displayed to the user when connectivity is lost or regained.",
+        "type": "string",
+        "enum": [
+          "english",
+          "spanish",
+          "french",
+          "portuguese-brazil"
+        ],
+        "enumNames": {
+          "english": "English",
+          "spanish": "Spanish",
+          "french": "French",
+          "portuguese-brazil": "Brazilian Portuguese"
+        },
+        "default": "english"
+      },
+      "theme": {
+        "title": "Theme",
+        "description": "Describes the look and feel of the message. Non-'Indicator' themes only show when there are connectivity issues, and 'Indicator' themes are always present in the bottom-left corner of the screen.",
+        "type": "string",
+        "enum": [
+          "default",
+          "dark",
+          "chrome",
+          "slide"
+        ],
+        "enumNames": {
+          "default": "Default",
+          "dark": "Dark",
+          "chrome": "Chrome",
+          "slide": "Slide"
+        },
+        "default": "default"
+      },
+      "indicator": {
+        "title": "Indicator",
+        "description": "Should the 'online' state always be shown in the lower corner of the page?",
+        "type": "boolean",
+        "default": false
+      }
+    }
+  }
+}

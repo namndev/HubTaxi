@@ -1,0 +1,54 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova.custom.plugins.exitapp": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.madman.client"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.madman.client"
+        }
+    },
+    "dependent_plugins": {}
+}

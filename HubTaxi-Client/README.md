@@ -11,5 +11,5 @@ To run app, locate each part to server static (such as apache, nginx root direct
 
 In addition, I provide a apk file named HubTaxi.apk to install android machine. I also provide an application for OSX. You can search keywork "HubTaxi" on apple store, instal and feel. :-)
 
-Read full info at [here!](https://github.com/vsoft-lab/HubTaxi-Server)
+Read full info at [here!](https://github.com/madmanteam/HubTaxi/tree/master/HubTaxi-Server)
 

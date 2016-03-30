@@ -23,7 +23,7 @@ angular.module('framework.vsoft', ['ui.vsoft', 'core.vsoft'])
         deviceId: (window.device) ? device.uuid.toLowerCase() : 'what.do.namehihi????',
         defaultPass: 'defaultPassword',
         name: 'iTaxi',
-        apiHost: 'http://192.168.1.107:6868', // taxigo.vn:997
+        apiHost: 'http://localhost:6868', // taxigo.vn:997
         mediaHost: 'http://vsoft.vn:1235'
     });
 
@@ -808,7 +808,7 @@ angular.module('core.vsoft.auth', ['core.vsoft.logger', 'core.vsoft.restful', 'L
                             cb(null, data);
                         })
                         .error(function (err) {
-
+                            console.log('LogErr: ',err);
                             $rootScope.crudProcessing = false;
                             $rootScope.loginError = err;
 
